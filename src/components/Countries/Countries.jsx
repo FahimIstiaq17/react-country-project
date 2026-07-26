@@ -11,7 +11,7 @@ const Countries = ({countriesPromise}) => {
         <div>
             <h2>In the country.....{countries.length} </h2>
             {
-                countries.map(country => <Country> </Country>)
+                countries.map(country => <Country country={country}> </Country>)
             }
         </div>
     );
